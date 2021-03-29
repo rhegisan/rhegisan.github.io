@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+.navbar{
+    background-color: rgb(2, 0, 0);
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap; 
+    align-items: flex-end; 
+}
+
+.item{
+color: seashell;
+padding: 20px 50px 20px 50px;
+border: 2px rgb(12, 6, 2);
+font-family: "Sofia", sans-serif;
+}
+
+a:hover{
+    color: rgb(240, 44, 44);
+}
+
+/* HOMEPAGE BACKGROUND IMAGE */
+#bg{
+    display: flex;
+    flex-wrap: wrap;  
+    /* background-repeat: no-repeat; */
+    height: 730px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:whitesmoke;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.Image4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#Image4-1,#Image4-2,#Image4-3,#Image4-4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    /* border: 1px solid chocolate; */
+}
+
+.lol{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:whitesmoke;
+    font-size: 30px;
+    background-color:coral;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    
+}
+.l{
+display: flex;
+flex-wrap: wrap;
+background-color: aqua;
+/* width: 40%; */
+height: 750px;
+background-image: url("7.jpg");
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: medium;
+    color: cornsilk;
+    background-color:rgb(7, 7, 7);
+}
+
+.Contact{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 400px;
+    background-image: url("8.jpg");
+    color: black;
+}
+
+#C-1{
+    width: 50%;
+    font-size: x-large;
+    padding: 50px 0px 0px 50px; 
+}
+
+#C-2{
+    width: 50%; 
+    margin-left: 0px; 
+}
+
+
+  .poster1{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    background-color:black;
+    padding-top: 18px;
+  }
+
+  .poster{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:whitesmoke;
+    font-size: 15px;
+    background-color:black;
+    padding-top: 15px;
+  }
+
+  
